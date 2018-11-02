@@ -10,7 +10,7 @@ Activity 구성
 1. IntroActivity\
 SplashActivity(1.3s)
 2. MainActivity\
-사진 검색 및 목록 보여주기\
+사진 검색 및 목록 보여주기
 3. DetailActivity\
 선택 사진 원본 및 다운로드
 
