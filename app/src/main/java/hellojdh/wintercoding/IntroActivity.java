@@ -7,7 +7,11 @@ import android.support.annotation.Nullable;
 
 import hellojdh.wintercoding.tool.BaseActivity;
 
+/*
+ * 인트로 화면
+ */
 public class IntroActivity extends BaseActivity {
+    private static final String TAG = IntroActivity.class.getSimpleName();
     private static int INTRO_TIME = 1300;
 
     @Override
@@ -15,6 +19,10 @@ public class IntroActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
+        goMain();
+    }
+
+    void goMain(){
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
