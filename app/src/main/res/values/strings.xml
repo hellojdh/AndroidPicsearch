@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">winterCoding</string>
+    <string name="app_name">PicSearch</string>
+    <string name="intro_text">Winter\nCoding\nPicSearch</string>
+    <string name="search_text">Search...</string>
+    <string name="search_button">Find</string>
+    <string name="nosearch">검색 결과가 없습니다.</string>
+    <string name="save">갤러리에 저장하기</string>
 </resources>
