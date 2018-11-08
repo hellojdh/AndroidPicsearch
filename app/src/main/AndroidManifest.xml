@@ -15,8 +15,7 @@
         <activity android:name=".MainActivity"
             android:windowSoftInputMode="adjustNothing"></activity>
         <activity android:name=".DetailActivity"
-            android:theme="@style/DetailTheme"
-            android:windowSoftInputMode="adjustNothing"></activity>
+            android:theme="@style/DetailTheme"/>
 
         <activity android:name=".IntroActivity"
             android:screenOrientation="portrait"

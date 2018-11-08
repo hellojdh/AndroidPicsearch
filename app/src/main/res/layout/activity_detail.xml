@@ -2,12 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    <data>
-        <variable
-            name="activity"
-            type="hellojdh.wintercoding.DetailActivity"/>
-    </data>
-
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +26,6 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/button_shape"
-            android:onClick="@{activity::clickToDownload}"
             android:text="@string/save"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
